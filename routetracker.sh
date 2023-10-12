@@ -12,7 +12,7 @@
 #aws iam users
 ## list s3 buckets
 echo "print list of s3 bucket"
-aws s3 ls >>routetr
+aws s3 ls >>routetr       #routetr is the file name where we want to save this output in which everyone check in later
 
 ## list ec2 instances
 echo "print list of ec2 instances"
